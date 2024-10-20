@@ -1,0 +1,174 @@
+body{
+  background-color: #C4DAD2;
+  
+}
+#root{
+  width: 100%;
+  height: 100%;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  /* padding: 20px; */
+  font-family: Arial, sans-serif;
+  width: 100%;
+  /* min-width: 100vh; */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+
+.input-side {
+  flex: 0 0 20%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 3.5%;
+  text-align: center;
+}
+
+.output-side {
+  width: 80%;
+  justify-content: flex-end;
+  
+}
+
+.paper-layout {
+  margin: 5%;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-sizing : border-box;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2, h3 {
+  margin-top: 10px;
+}
+
+.input-container {
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 22px);
+}
+
+
+.personal{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item1{
+  flex-basis: 100%;
+}
+.item2 .item3{
+  flex-basis: 50%;
+}
+.rotated {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+
+
+.input-card {
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Space inside the card */
+  margin-bottom: 20px; /* Space between cards */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  background-color: #fff; /* White background */
+  /* width: 100%; */
+}
+
+.input-box {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-button {
+  margin: 5%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 40%;
+  box-sizing: border-box;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+.delete-button{
+  margin: 5%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 40%;
+  box-sizing: border-box;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.rotated {
+  transform: rotate(180deg); /* Rotate the arrow when toggled */
+}
+
+.email-phone-row {
+  display: flex;
+  justify-content: center;
+  padding: 0 1em; /* Optional padding for spacing */
+}
+
+.email-phone-row p{
+  margin: 5%;
+  margin-top: 0%;
+}
+
+.heading{
+  background-color: #C4DADe;
+}
+
+.pdf-download-container{
+  
+  justify-content: end;
+}
